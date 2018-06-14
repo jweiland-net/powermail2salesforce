@@ -18,9 +18,6 @@ plugin.tx_powermail.settings.setup {
         username =
         # cat=plugin.tx_powermail2_salesforce; type=string; label=Password
         password =
-
-        # cat=plugin.tx_powermail2_salesforce; type=boolean; label=Debug
-        debug =
       }
     }
   }
