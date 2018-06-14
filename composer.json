@@ -1,0 +1,33 @@
+{
+	"name": "jweiland/powermail_salesforce",
+	"type": "typo3-cms-extension",
+	"description": "Powermail Salesforce integration",
+	"license": "GPL-2.0+-or-later",
+	"keywords": [
+		"Powermail",
+		"Salesforce",
+		"Integration",
+		"typo3",
+		"TYPO3 CMS"
+	],
+	"homepage": "http://www.jweiland.net",
+	"authors": [
+		{
+			"name": "Markus Kugler",
+			"email": "projects@jweiland.net",
+			"role": "Lead Developer"
+		}
+	],
+	"support": {
+		"email": "projects@jweiland.net"
+	},
+	"require": {
+		"typo3/cms-core": "~8.7",
+		"in2code/powermail": "~6.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"JWeiland\\PowermailSalesforce\\": "Classes"
+		}
+	}
+}
