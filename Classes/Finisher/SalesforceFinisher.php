@@ -1,6 +1,6 @@
 <?php
 declare(strict_types = 1);
-namespace JWeiland\PowermailSalesforce\Finisher;
+namespace JWeiland\Powermail2salesforce\Finisher;
 
 /*
  * This file is part of the powermail_finisher project.
@@ -42,7 +42,7 @@ class SalesforceFinisher extends SendParametersFinisher
      *
      * @return bool
      */
-    protected function isEnabled()
+    protected function isEnabled(): bool
     {
         return $this->configuration['_enable'] === '1' && $this->isFormSubmitted();
     }

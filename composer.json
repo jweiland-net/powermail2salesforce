@@ -19,7 +19,9 @@
 		}
 	],
 	"support": {
-		"email": "projects@jweiland.net"
+		"email": "projects@jweiland.net",
+		"issues": "https://github.com/jweiland-net/powermail2salesforce/issues",
+		"source": "https://github.com/jweiland-net/powermail2salesforce"
 	},
 	"require": {
 		"typo3/cms-core": "~8.7",
@@ -27,7 +29,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"JWeiland\\PowermailSalesforce\\": "Classes"
+			"JWeiland\\Powermail2salesforce\\": "Classes"
 		}
 	}
 }
