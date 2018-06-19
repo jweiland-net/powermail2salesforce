@@ -1,8 +1,8 @@
 {
-	"name": "jweiland/powermail_salesforce",
+	"name": "jweiland/powermail-salesforce",
 	"type": "typo3-cms-extension",
 	"description": "Powermail Salesforce integration",
-	"license": "GPL-2.0+-or-later",
+	"license": "GPL-2.0-or-later",
 	"keywords": [
 		"Powermail",
 		"Salesforce",
