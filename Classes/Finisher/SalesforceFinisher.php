@@ -65,7 +65,17 @@ class SalesforceFinisher extends SendParametersFinisher
         $answers = $this->mail->getAnswers();
 
         foreach ($answers as $answer) {
-            $result .= '&' . $answer->getField()->getMarker() . '=' . $answer->getRawValue();
+            switch ($answer->getValueType()) {
+                case Answer::VALUE_TYPE_TEXT:
+                    $result .= '&' . $answer->getField()->getMarker() . '=' . $answer->getRawValue();
+                    break;
+                case Answer::VALUE_TYPE_ARRAY:
+                    foreach ($answer->getValue() as $value) {
+                        $result .= '&' . $answer->getField()->getMarker()
+                            . '=' . urlencode($value);
+                    }
+                    break;
+            }
         }
 
         return $result;

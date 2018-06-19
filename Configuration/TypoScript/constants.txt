@@ -2,21 +2,21 @@ plugin.tx_powermail.settings.setup {
   finishers {
     100 {
       config {
-        # cat=plugin.tx_powermail_salesforce; type=string; label=Target URL
+        # cat=plugin.tx_powermail2salesforce; type=string; label=Target URL
         targetUrl =
 
-        # cat=plugin.tx_powermail_salesforce; type=string; label=Orgid
+        # cat=plugin.tx_powermail2salesforce; type=string; label=Orgid
         orgid =
-        # cat=plugin.tx_powermail_salesforce; type=string; label=Record type
+        # cat=plugin.tx_powermail2salesforce; type=string; label=Record type
         recordType =
-        # cat=plugin.tx_powermail_salesforce; type=string; label=Type
+        # cat=plugin.tx_powermail2salesforce; type=string; label=Type
         type =
-        # cat=plugin.tx_powermail_salesforce; type=string; label=Origin
+        # cat=plugin.tx_powermail2salesforce; type=string; label=Origin
         origin =
 
-        # cat=plugin.tx_powermail_salesforce; type=string; label=Username
+        # cat=plugin.tx_powermail2salesforce; type=string; label=Username
         username =
-        # cat=plugin.tx_powermail_salesforce; type=string; label=Password
+        # cat=plugin.tx_powermail2salesforce; type=string; label=Password
         password =
       }
     }

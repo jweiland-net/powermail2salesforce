@@ -1,7 +1,7 @@
 plugin.tx_powermail.settings.setup {
   finishers {
     100 {
-      class = JWeiland\PowermailSalesforce\Finisher\SalesforceFinisher
+      class = JWeiland\Powermail2salesforce\Finisher\SalesforceFinisher
 
       config {
         # Activate sendPost (0/1)
