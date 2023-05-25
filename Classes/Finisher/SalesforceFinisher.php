@@ -1,32 +1,26 @@
 <?php
+
 declare(strict_types = 1);
-namespace JWeiland\Powermail2salesforce\Finisher;
 
 /*
- * This file is part of the powermail_finisher project.
- *
- * It is free software; you can redistribute it and/or modify it under
- * the terms of the GNU General Public License, either version 2
- * of the License, or any later version.
+ * This file is part of the package jweiland/powermail2salesforce.
  *
  * For the full copyright and license information, please read the
- * LICENSE.txt file that was distributed with this source code.
- *
- * The TYPO3 project - inspiring people to share!
+ * LICENSE file that was distributed with this source code.
  */
+
+namespace JWeiland\Powermail2salesforce\Finisher;
 
 use In2code\Powermail\Domain\Model\Answer;
 use In2code\Powermail\Finisher\SendParametersFinisher;
 
 /**
- * Class SalesforceFinisher
+ * Powermail finisher class to build up connection to salesforce API endpoint
  */
 class SalesforceFinisher extends SendParametersFinisher
 {
     /**
      * Initialize finisher without overriding original one too much
-     *
-     * @return void
      */
     public function initializeFinisher()
     {
@@ -39,8 +33,6 @@ class SalesforceFinisher extends SendParametersFinisher
      * Check if sendPost is activated
      *      - if it's enabled via TypoScript
      *      - if form was final submitted (without optin)
-     *
-     * @return bool
      */
     protected function isEnabled(): bool
     {
@@ -49,8 +41,6 @@ class SalesforceFinisher extends SendParametersFinisher
 
     /**
      * Get get params string
-     *
-     * @return string
      */
     protected function getValues(): string
     {

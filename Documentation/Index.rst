@@ -1,60 +1,57 @@
-﻿.. ==================================================
-.. FOR YOUR INFORMATION
-.. --------------------------------------------------
-.. -*- coding: utf-8 -*- with BOM.
-
-.. include:: Includes.txt
+﻿..  include:: /Includes.rst.txt
 
 
 .. _start:
 
-=============================================================
-Powermail Salesforce
-=============================================================
+======================
+Powermail 2 Salesforce
+======================
 
-.. only:: html
+:Extension key:
+    powermail2salesforce
 
-	:Classification:
-		powermail_solr
+:Package name:
+    jweiland/powermail2salesforce
 
-	:Version:
-		|release|
+:Version:
+    |release|
 
-	:Language:
-		en
+:Language:
+    en
 
-	:Description:
-		Add salesforce API support to powermail.
+:Author:
+    Stefan Froemken
 
-	:Keywords:
-		powermail,salesforce
+:License:
+    This document is published under the
+    `Creative Commons BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`__
+    license.
 
-	:Copyright:
-		2018
+:Rendered:
+    |today|
 
-	:Author:
-		Markus Kugler
+----
 
-	:Email:
-		projects@jweiland.net
+Add salesforce API support to powermail.
 
-	:License:
-		Open Content License available from www.opencontent.org/opl.shtml
+----
 
-	:Rendered:
-		|today|
+**Table of Contents:**
 
-	The content of this document is related to TYPO3,
-	a GNU/GPL CMS/Framework available from `www.typo3.org <https://typo3.org/>`__.
+..  toctree::
+    :maxdepth: 2
+    :titlesonly:
 
+    Introduction/Index
+    Installation/Index
+    Configuration/Index
+    UsersManual/Index
+    FAQ/Index
 
-	**Table of Contents**
+..  Meta Menu
 
-.. toctree::
-	:maxdepth: 3
-	:titlesonly:
+..  toctree::
+    :hidden:
 
-	Introduction/Index
-	UsersManual/Index
-	AdministratorManual/Index
-	Links
+    Sitemap
+    genindex
