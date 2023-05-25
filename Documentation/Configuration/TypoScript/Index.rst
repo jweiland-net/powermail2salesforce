@@ -98,7 +98,7 @@ targetUrl
     :Default: [EMPTY]
     :Path: plugin.tx_powermail.settings.setup.finishers.100.config
 
-    Set the *.php URI endpoint of the salesforce API endpoint starting with
+    Set the `*.php` URI endpoint of the salesforce API endpoint starting with
     `https://`. Example: `http://www.target.com/target.php`.
 
 orgid
