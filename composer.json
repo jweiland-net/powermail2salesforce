@@ -7,13 +7,13 @@
 		"Powermail",
 		"Salesforce",
 		"Integration",
-		"typo3",
+		"TYPO3",
 		"TYPO3 CMS"
 	],
-	"homepage": "http://www.jweiland.net",
+	"homepage": "https://jweiland.net",
 	"authors": [
 		{
-			"name": "Markus Kugler",
+			"name": "Stefan Froemken",
 			"email": "projects@jweiland.net",
 			"role": "Lead Developer"
 		}
