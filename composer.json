@@ -30,6 +30,9 @@
 	"require-dev": {
 		"friendsofphp/php-cs-fixer": "^2.14"
 	},
+	"replace": {
+		"typo3-ter/powermail2salesforce": "self.version"
+	},
 	"autoload": {
 		"psr-4": {
 			"JWeiland\\Powermail2salesforce\\": "Classes"
