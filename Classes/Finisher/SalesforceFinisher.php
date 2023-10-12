@@ -22,7 +22,7 @@ class SalesforceFinisher extends SendParametersFinisher
     /**
      * Initialize finisher without overriding original one too much
      */
-    public function initializeFinisher()
+    public function initializeFinisher(): void
     {
         $configuration = $this->configuration;
         parent::initializeFinisher();
