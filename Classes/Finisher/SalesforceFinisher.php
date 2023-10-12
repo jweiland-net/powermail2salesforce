@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 /*
  * This file is part of the package jweiland/powermail2salesforce.
@@ -22,7 +22,7 @@ class SalesforceFinisher extends SendParametersFinisher
     /**
      * Initialize finisher without overriding original one too much
      */
-    public function initializeFinisher()
+    public function initializeFinisher(): void
     {
         $configuration = $this->configuration;
         parent::initializeFinisher();
