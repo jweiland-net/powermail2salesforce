@@ -12,7 +12,6 @@ return (new \PhpCsFixer\Config())
                 __DIR__ . '/../../Build/',
                 __DIR__ . '/../../Classes/',
                 __DIR__ . '/../../Configuration/',
-                __DIR__ . '/../../Tests/',
             ])
     )
     ->setUsingCache(false)
