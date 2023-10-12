@@ -1,11 +1,18 @@
 <?php
 
+/*
+ * This file is part of the package jweiland/powermail2salesforce.
+ *
+ * For the full copyright and license information, please read the
+ * LICENSE file that was distributed with this source code.
+ */
+
 if (PHP_SAPI !== 'cli') {
     die('This script supports command line usage only. Please check your command.');
 }
 
 $headerComment = <<<COMMENT
-This file is part of the package jweiland/glossary2.
+This file is part of the package jweiland/powermail2salesforce.
 
 For the full copyright and license information, please read the
 LICENSE file that was distributed with this source code.
