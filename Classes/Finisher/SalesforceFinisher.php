@@ -13,12 +13,16 @@ namespace JWeiland\Powermail2salesforce\Finisher;
 
 use In2code\Powermail\Domain\Model\Answer;
 use In2code\Powermail\Finisher\SendParametersFinisher;
+use Psr\Log\LoggerAwareInterface;
+use Psr\Log\LoggerAwareTrait;
 
 /**
  * Powermail finisher class to build up connection to salesforce API endpoint
  */
-class SalesforceFinisher extends SendParametersFinisher
+class SalesforceFinisher extends SendParametersFinisher implements LoggerAwareInterface
 {
+    use LoggerAwareTrait;
+
     /**
      * Initialize finisher without overriding original one too much
      */
@@ -40,13 +44,11 @@ class SalesforceFinisher extends SendParametersFinisher
     }
 
     /**
-     * Get get params string
+     * Get POST params for curl request (CURLOPT_POSTFIELDS) to salesforce API
      */
     protected function getValues(): string
     {
-        $result = '';
-
-        $result .= '&orgid=' . $this->configuration['orgid'];
+        $result = '&orgid=' . $this->configuration['orgid'];
         $result .= '&recordType=' . $this->configuration['recordType'];
         $result .= '&type=' . $this->configuration['type'];
         $result .= '&origin=' . $this->configuration['origin'];
@@ -67,6 +69,14 @@ class SalesforceFinisher extends SendParametersFinisher
                     break;
             }
         }
+
+        $this->logger->debug(
+            'Following POST params will be sent to salesforce API',
+            [
+                'postData' => $result,
+                'tsConfig' => $this->configuration,
+            ]
+        );
 
         return $result;
     }
