@@ -15,14 +15,14 @@ following command:
 
 ..  code-block:: bash
 
-    composer req jweiland/powermail2salesforce
+    composer req jweiland/powermail-salesforce
     vendor/bin/typo3 extension:setup --extension=powermail2salesforce
 
 If you work with DDEV please execute this command:
 
 ..  code-block:: bash
 
-    ddev composer req jweiland/powermail2salesforce
+    ddev composer req jweiland/powermail-salesforce
     ddev exec vendor/bin/typo3 extension:setup --extension=powermail2salesforce
 
 ExtensionManager

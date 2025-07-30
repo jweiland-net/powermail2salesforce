@@ -20,7 +20,7 @@ The recommended way to install the extension is using Composer.
 Run the following command within your Composer based TYPO3 project:
 
 ```
-composer require jweiland/powermail2salesforce
+composer require jweiland/powermail-salesforce
 ```
 
 #### Installation as extension from TYPO3 Extension Repository (TER)

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the package jweiland/powermail2salesforce.
+ * This file is part of the package jweiland/powermail-salesforce.
  *
  * For the full copyright and license information, please read the
  * LICENSE file that was distributed with this source code.
@@ -12,7 +12,7 @@ if (PHP_SAPI !== 'cli') {
 }
 
 $headerComment = <<<COMMENT
-This file is part of the package jweiland/powermail2salesforce.
+This file is part of the package jweiland/powermail-salesforce.
 
 For the full copyright and license information, please read the
 LICENSE file that was distributed with this source code.
