@@ -41,3 +41,9 @@ your markers after activating/reactivating this extension.
 
 If your used API is case-sensitive some markers would not be interpreted by
 your API because of this.
+
+## Support
+
+Free Support is available via [Github Issue Tracker](https://github.com/jweiland-net/powermail2salesforce/issues).
+
+For commercial support, please contact us at [support@jweiland.net](support@jweiland.net).
