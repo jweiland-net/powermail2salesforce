@@ -3,11 +3,14 @@
 [![CI](https://github.com/jweiland-net/powermail2salesforce/actions/workflows/ci.yml/badge.svg)](https://github.com/jweiland-net/powermail2salesforce/actions/workflows/ci.yml)
 
 `powermail2salesforce` is an extension for TYPO3 CMS. It contains a finisher
-class for powermail to send data of a form to salesforce API endpoint.
+class for powermail to send data of a form to salesforce Web-to-Case endpoint.
+
+It does not use the Salesforce `/services/data/` API but sends the data
+form-encoded to a Web-to-Case HTTP form endpoint.
 
 ## 1 Features
 
-* Send data of a powermail form to salesforce API endpoint.
+* Send data of a powermail form to salesforce Web-to-Case endpoint.
 
 ## 2 Usage
 
@@ -20,7 +23,7 @@ The recommended way to install the extension is using Composer.
 Run the following command within your Composer based TYPO3 project:
 
 ```
-composer require jweiland/powermail2salesforce
+composer require jweiland/powermail-salesforce
 ```
 
 #### Installation as extension from TYPO3 Extension Repository (TER)

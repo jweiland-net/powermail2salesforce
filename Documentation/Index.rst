@@ -11,7 +11,7 @@ Powermail 2 Salesforce
     powermail2salesforce
 
 :Package name:
-    jweiland/powermail2salesforce
+    jweiland/powermail-salesforce
 
 :Version:
     |release|
