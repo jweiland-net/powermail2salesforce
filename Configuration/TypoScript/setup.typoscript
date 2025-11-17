@@ -1,6 +1,6 @@
 plugin.tx_powermail.settings.setup {
   finishers {
-    100 {
+    90 {
       class = JWeiland\Powermail2salesforce\Finisher\SalesforceFinisher
 
       config {
